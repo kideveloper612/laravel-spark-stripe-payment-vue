@@ -162,6 +162,9 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        Laravel\Spark\Providers\SparkServiceProvider::class,
+        Laravel\Cashier\CashierServiceProvider::class,
+
         /*
          * Package Service Providers...
          */
